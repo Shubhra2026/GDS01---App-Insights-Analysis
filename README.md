@@ -48,7 +48,7 @@ Last Updated
 
 This analysis provides valuable insights into user preferences, app performance, and market trends in the Google Play Store. These findings can help businesses make data-driven decisions to optimize app features, pricing strategies, and marketing efforts.
 
-📌 Future Scope
+# Future Scope
 Build interactive dashboards using Power BI or Tableau
 Apply machine learning models to predict app success
 Perform sentiment analysis on user reviews
