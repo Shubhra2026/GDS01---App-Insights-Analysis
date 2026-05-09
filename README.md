@@ -1,55 +1,67 @@
-## Google Play Store Apps Analysis
-# Project Overview
+# Google Play Store Apps Analysis
 
-The Google Play Store Apps Analysis is a data analytics project focused on evaluating app performance, user engagement, and market trends within the mobile application ecosystem.
+## Project Overview
+The Google Play Store Apps Analysis is a GDS (Google Data Studio / Looker Studio) dashboard project focused on analyzing app performance, installs, ratings, and category trends using Google Play Store dataset.
 
-This project demonstrates the ability to clean and transform real-world datasets, perform exploratory data analysis (EDA), and extract actionable insights that can guide app development strategies, improve user experience, and increase downloads and revenue.
+The project demonstrates dashboard building, data visualization, filtering, and business insight generation using interactive charts and controls.
 
-# Key Objectives
-App Performance Analysis
-Analyze app ratings, installs, and reviews to identify high-performing applications.
-User Engagement Insights
-Evaluate the relationship between ratings, reviews, and installs to understand user behavior.
-Category Analysis
-Identify top-performing app categories in terms of popularity and user satisfaction.
-Pricing Strategy Evaluation
-Compare free vs paid apps to determine their impact on downloads and ratings.
-Trend Identification
-Discover patterns in app updates, sizes, and versions affecting performance.
-# Technical Stack & Environment
-Tool: Microsoft Excel / Python (Pandas, Matplotlib, Seaborn) (adjust based on what you used)
-Techniques:
-Data Cleaning & Preprocessing
-Exploratory Data Analysis (EDA)
-Data Visualization
-Statistical Analysis
-# Key Insights
-Free apps dominate the market with significantly higher install counts compared to paid apps
-Apps with higher ratings tend to receive more installs and user engagement
-Categories like Games and Tools show the highest popularity
-A large number of apps fall within the 4.0–4.5 rating range, indicating moderate user satisfaction
-Excessively large app sizes may negatively impact install rates
-# Dataset Features
+---
 
-The dataset includes the following key attributes:
+## Key Objectives
+- Analyze app installs and ratings
+- Compare Free vs Paid applications
+- Identify top-performing categories
+- Understand rating distribution
+- Build an interactive dashboard using GDS
 
-App Name
-Category
-Rating
-Reviews
-Size
-Installs
-Type (Free/Paid)
-Price
-Content Rating
-Genres
-Last Updated
-# Conclusion
+---
 
-This analysis provides valuable insights into user preferences, app performance, and market trends in the Google Play Store. These findings can help businesses make data-driven decisions to optimize app features, pricing strategies, and marketing efforts.
+## Tools Used
+- Google Looker Studio (Google Data Studio)
+- CSV Dataset
 
-# Future Scope
-Build interactive dashboards using Power BI or Tableau
-Apply machine learning models to predict app success
-Perform sentiment analysis on user reviews
-Develop recommendation systems for app categories
+---
+
+## Dashboard Preview
+
+![Dashboard](GDS%20dashboard.jpeg)
+
+---
+
+## Dashboard Features
+- KPI Cards for Total Rating, Total Installs, and Total Apps
+- Installs by Category Analysis
+- Free vs Paid Apps Comparison
+- Rating Distribution Histogram
+- Interactive Filters (Category & Content Rating)
+- Tabular App Insights
+
+---
+
+## Key Insights
+- Free apps have significantly more installs than paid apps
+- Game category has the highest installs
+- Most applications have ratings between 4.0 and 4.5
+- Paid apps represent a very small portion of the dataset
+- Category filters help analyze app performance dynamically
+
+---
+
+## Dataset Features
+The dataset includes:
+- App
+- Category
+- Rating
+- Reviews
+- Size
+- Installs
+- Type
+- Price
+- Content Rating
+- Genres
+- Last Updated
+
+---
+
+## Conclusion
+This GDS dashboard provides meaningful insights into Google Play Store applications through interactive visualizations and filters, helping users understand app trends and performance effectively.
