@@ -20,14 +20,6 @@ The project demonstrates dashboard building, data visualization, filtering, and 
 - Google Looker Studio (Google Data Studio)
 - CSV Dataset
 
----
-
-## Dashboard Preview
-
-![Dashboard](GDS%20dashboard.jpeg)
-
----
-
 ## Dashboard Features
 - KPI Cards for Total Rating, Total Installs, and Total Apps
 - Installs by Category Analysis
