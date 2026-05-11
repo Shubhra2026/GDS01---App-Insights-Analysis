@@ -1,5 +1,4 @@
 # Google Play Store Apps Analysis Dashboard
-# Google Play Store Apps Analysis Dashboard
 
 ## Live Dashboard
 [View Dashboard Here](https://datastudio.google.com/s/i3JD9BFmtrw)
